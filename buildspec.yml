@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+  pre_build:
+    commands:
+      - echo Pre build instal requirements
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo Build started
+      - python ./main.py
+  post_build:
+    commands:
+      - echo Build completed
