@@ -1,5 +1,5 @@
 # Spotify_api
-A project that will create a SQL database with a spotify users info
+A project that will create a SQL database with a spotify users songs
 
 ## Project is intended to run with AWS CodePipeline via AWS CodeCommit, the github project is just for demonstration
 
